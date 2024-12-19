@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin:auto;
+    /* border:1px solid red; */
+}
+.navbar{
+    width: 1440px;
+    margin:auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-20{
+    padding: 20px;
+}
+.suit{
+    /* border:1px solid red; */
+    padding:28px 15px;
+    font-size: 16px;
+    font-family: 'Lato';
+    text-decoration: none;
+    color:black;
+}
+.suit a:hover{
+    border-bottom: 2px solid purple;
+    scale: 1.5px;
+}
+.p-20{
+    padding: 20px;
+}
+.container-fluid{
+   margin: auto;
+    width:100%;
+    border:1px solid red;
+}
+.w-5 img{
+    width:150px;
+    padding-top:20px ;
+}
+.suit a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-family: "Lato";
+    margin-right: 18px;
+}
+.fa-magnifying-glass {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    padding-top:20px ;
+}
+.fa-user{
+    color:black;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.fa-cart-shopping{
+    color:black;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.img1 a img{
+    width:121%
+}
+.btn{
+    border: 1px solid red;
+}
+.img2{
+    border:1px solid red;
+}
+.img2{
+    width: 100%;
+    width:100%;
+    background-image: url(img/img4.webp);
+    height: 100%;
+    background-size: contain;
+}
+.img2 img:hover{
+    opacity: 0;
+}
+.img2 img{
+    width: 100%;
+}
+.text a{
+    border: 1px solid red;
+    text-decoration: none;
+    color:black;
+    margin: 0px 0px 10px 0px;
+    color: #555;
+    font-family: "lato";
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.price{
+    border:1px solid red;
+    color: #555;
+    font-family: "lato";
+    font-size: 16px;
+}
+.img3{
+    border:1px solid red;
+}
+.img3{
+    width: 100%;
+    width:100%;
+    background-image: url(img/img6.webp);
+    height: 100%;
+    background-size: contain;
+}
+.img3 img:hover{
+    opacity: 0;
+}
+.img3 img{
+    width: 100%;
+}
+.img4{
+    border:1px solid red;
+}
+.img4{
+    width: 100%;
+    width:100%;
+    background-image: url(img/img8.webp);
+    height: 100%;
+    background-size: contain;
+}
+.img4 img:hover{
+    opacity: 0;
+}
+.img4 img{
+    width: 100%;
+}
