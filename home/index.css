@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin:auto;
+}
+.navbar{
+    max-width: 1440px;
+    margin:auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.suit{
+    padding:5px 10px;
+    font-size: 16px;
+    font-family: 'Lato';
+    text-decoration: none;
+    color:black;
+    display: flex;
+    background-color: gainsboro;
+}
+.p-20{
+    padding: 20px;
+}
+.container-fluid{
+   margin: auto;
+    width: 100%;
+}
+.w-5 img{
+    width:150px;
+    padding-top:20px ;
+}
+.suit a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    font-family: "Lato";
+    padding: 5px;
+}
+.suit a:hover{
+    border-bottom: 2px solid purple;
+    background-color: pink;
+}
+.fa-magnifying-glass {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+.fa-user{
+    color:black;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.fa-cart-shopping{
+    color:black;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.slider1 .slick-next:before{
+    color: white !important;
+}
+.slider1 .slick-next{
+    top: 440px;
+    right: 0px;
+}.slider1 .slick-prev:before{
+    color: white !important;
+}
+.slider1 .slick-prev{
+    top: 440px;
+    left: 0px;
+    z-index: 4;
+}
+.slider2 .s1 > a{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-size: 16px;
+}
+
+
+.s1 img{
+    width: 100%;
+    position: relative !important;
+}
+.slider2 .slick-next:before{
+    color: black !important;
+}
+.slider2 .slick-next{
+    /* position: absolute; */
+    right: 5px;
+}
+.slider2 .slick-prev:before{
+    color: black !important;
+}
+.slider2 .slick-prev{
+    left: 5px;
+    z-index: 4;
+}
+.s1 a{
+    font-family: "Lato";
+   
+}
+.stunning{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Lato";
+}
+.img{
+    overflow: hidden;
+}
+.img a img{
+    width:100%;
+    background-size: cover;
+    transition: all 0.5s;
+}
+.new{
+   font-size: 18px;
+   color: #282727;
+   text-align: center;
+   font-family: 'Lato';    
+}
+.img a img:hover{
+    scale:1.1;
+}
+.img1{
+    width:100%;
+   background-image: url(img/img23.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img1 img:hover{
+    opacity: 0;
+}
+.img1 img{
+width: 100%;
+}
+.marron a{
+    text-decoration: none;
+    color:gray;
+    text-align: center;
+    display: block;
+    width:100%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: prompt,sans-serif;
+}
+.marron p{
+    color:gray;
+    text-align: center;
+    font-family: prompt,sans-serif;
+}
+.data p{
+    color:gray;
+    text-align: center;
+    padding: 10px;
+}
+.d-flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width:100%;
+   background-image: url(img/img25.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img2 img:hover{
+    opacity: 0;
+}
+.img2 img{
+width: 100%;
+}
+.img3{
+    width:100%;
+   background-image: url(img/img27.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img3 img:hover{
+    opacity: 0;
+}
+.img3 img{
+width: 100%;
+}
+.img4{
+    width:100%;
+   background-image: url(img/img29.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img4 img:hover{
+    opacity: 0;
+}
+.img4 img{
+width: 100%;
+}
+.img5{
+    width:100%;
+   background-image: url(img/img31.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img5 img:hover{
+    opacity: 0;
+}
+.img5 img{
+width: 100%;
+}
+.img6{
+    width:100%;
+   background-image: url(img/img33.webp);
+   height: 100%;
+   background-size: contain;
+}
+.img6 img:hover{
+    opacity: 0;
+}
+.img6 img{
+width: 100%;
+}
+.col{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "lato";
+    font-size: 28px;
+}
+.little{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.little img{
+    width:100%;
+}
+.shop{
+    position: absolute;
+    /* z-index: 2; */
+    bottom: 10px;
+    left:50%;
+    transform: translatex(-50%);
+    color:white;
+    font-size: 20px;
+    font-family: "lato";
+    padding: 10px 0px;
+    text-align: center;
+}
+.shop h3{
+    padding-bottom:2px;
+}
+.shop1-1{
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    transform: translatex(-70%);
+    color:white;
+    font-size: 20px;
+    font-family: "lato";
+    padding: 10px 0px;
+    text-align: center;
+}
+.shop h3{
+    padding-bottom:2px;
+}
+.little a img{
+    transition: all 0.5s;
+}
+.little a img:hover{
+    scale:1.1;
+}
+.shop p{
+    font-size: 12px;
+    font-family: "lato";
+    /* left:10px; */
+    text-align: center;
+}
+.shop1{
+    position: absolute;
+    /* z-index: 2; */
+    bottom: 10px;
+    left:50%;
+    transform: translatex(-50%);
+    color:white;
+    font-size: 20px;
+    font-family: "lato";
+    padding: 10px 0px;
+}
+.shop1 h3{
+    padding-left: 20px;
+}
+.shop1 p{
+    font-size: 12px;
+    font-family: "lato";
+    /* left:10px; */
+    text-align: center;
+}
+.shop2{
+    position: absolute;
+    /* z-index: 2; */
+    bottom: 10px;
+    left:50%;
+    transform: translatex(-50%);
+    color:white;
+    font-size: 20px;
+    font-family: "lato";
+    padding: 10px 0px;
+    text-align: center;
+}
+.shop2 h3{
+    padding-left: 30px;
+}
+.shop2 h3{
+    font-size: 20px;
+    font-family: "lato";
+}
+.shop2 p{
+    font-size: 12px;
+    font-family: "lato";
+    /* left:10px; */
+    
+}
+.shop3{
+   position: absolute; 
+    /* z-index: 2; */
+    padding: 10px 0px;
+    bottom: 10px;
+    text-align: center; 
+    left:50%;
+    transform: translatex(-65%);
+    color:white;
+}
+.shop3 h3{
+    font-size: 20px;
+    font-family: "lato";
+    padding-left:70px ;
+}
+.shop3 p{
+    font-size: 12px;
+    font-family: "lato";
+    /* left:10px; */
+   padding-left: 50px;;
+}
+.shop4{
+    position: absolute; 
+    /* z-index: 2; */
+    padding: 10px 0px;
+    bottom: 10px;
+    text-align: center; 
+    left:50%;
+    transform: translatex(-75%);
+    color:white;
+}
+.shop4 h3{
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: "lato";
+}
+.shop4 p{
+    padding-left: 100px;
+    font-size: 12px;
+    font-family: "lato";
+}
+.shop5{
+    position: absolute; 
+    /* z-index: 2; */
+    padding: 10px 0px;
+    bottom: 10px;
+    text-align: center; 
+    left:50%;
+    transform: translatex(-73%);
+    color:white;
+}
+.shop5 h3{
+    font-size: 20px;
+    font-family: "lato";
+    padding-left: 150px;
+}
+.shop5 p{
+    padding-left: 150px;
+    font-size: 12px;
+    font-family: "lato";
+}
+.shop6{
+    position: absolute; 
+    /* z-index: 2; */
+    padding: 10px 0px;
+    bottom: 10px;
+    text-align: center; 
+    left:50%;
+    transform: translatex(-76%);
+    color:white;
+}
+.shop6 h3{
+    font-size: 20px;
+    font-family: "lato";
+    padding-left: 150px;
+}
+.shop6 p{
+    padding-left: 150px;
+    font-size: 12px;
+    font-family: "lato";
+}
+.details{
+    
+    padding: 20px;
+    max-width: 1320px;
+    margin:auto;
+}
+
+.about{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+     
+}
+.us{
+    padding-bottom: 10px;
+    color:white;
+    font-size: 26px;
+    margin:auto;
+}
+.company a{
+    text-decoration: none;
+    color:white;
+    line-height: 1.8;
+}
+.bt button{
+    padding: 20px;
+}
+
